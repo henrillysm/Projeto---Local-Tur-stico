@@ -1,0 +1,173 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    /* outline: 1px solid red; */
+    font-family: "Open Sans", sans-serif;
+
+}
+
+body {
+    background-color: #f5f4f0;
+    /* width: 1280px; */
+    /* margin: 100px 80px; */
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #333333;
+
+}
+
+h1, h2, h3 {
+    color: #1b1b1b;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 28px;
+}
+
+#container {
+    margin: 88px auto 65px;
+    width: 1120px;
+}
+
+#titlePage {
+    margin-bottom: 40px;
+}
+
+#titlePage p {
+    margin-bottom: 8px;
+}
+
+.headline {
+    font-size: 16px;
+    font-weight: bold;
+    color: #e1624f;
+    text-transform: uppercase;
+}
+
+main section img {
+    height: 660px;
+    object-fit: cover;
+    border-radius: 28px;
+    width: 100%;
+
+}
+
+[data-=img] {
+    height: 350px;
+    object-fit: cover;
+    border-radius: 28px;
+    width: 100%;
+}
+
+#description p {
+    margin-top: 24px;
+    text-align: center;
+    font-style: italic;
+    color: #333333;
+    font-size: 16px;
+    line-height: auto;
+}
+
+#description {
+    margin-bottom: 40px;
+}
+
+.divisor {
+    border: 1px solid #d9d9d9;
+    width: 100%;
+}
+
+#titleList {
+    margin: 64px 0px;
+}
+
+#title p {
+    margin-bottom: 2px;
+}
+
+#title h2 {
+    margin-bottom: 8px;
+    font-size: 32px;
+}
+
+#list {
+    margin-bottom: 40px;
+}
+
+.card.travel1, .card.travel2 {
+    margin-bottom: 48px;    
+}
+
+.card.travel1 li, .card.travel2 li {
+    color: #0c51a7;
+    font-weight: bold;
+} 
+
+.card.travel3 li {
+    font-weight: bold;
+}
+
+.card.travel3 li:nth-child(1) {
+    color: #591b98;
+}
+/* .card.travel3 #casais {
+    color: #591b98;
+} */
+
+.card.travel3 li:nth-child(2) {
+    color: #e5245e;
+}
+/* .card.travel3 #familias {
+    color: #e5245e;
+} */
+
+.card.travel3 li:nth-child(3) {
+    color:#e95e10;
+}
+/* .card.travel3 #orçamento {
+    color: #e95e10;
+} */
+
+.content.card h3 {
+    margin: 20px 0 4px;
+    padding-left: 16.49px;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+ul li::marker {
+  color: #333333;
+
+}
+
+#paragraph {
+    margin-top: 40px;
+    text-align:center;
+    vertical-align: top;
+    /* margin: 40px auto 0px; */
+}
+
+footer {
+    /* margin-bottom: 48px; */
+    text-align: center;
+    margin: 0px 537px 48px;
+}
+
+footer img {
+    vertical-align: middle;
+}
